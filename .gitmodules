@@ -1,0 +1,9 @@
+[submodule "intro"]
+	path = intro
+	url = https://git.overleaf.com/5f4fd7df0726660001d9cfb5
+[submodule "conclusion"]
+	path = conclusion
+	url = https://git.overleaf.com/5f4fd81b0726660001d9cfe9
+[submodule "integracion-social"]
+	path = integracion-social
+	url = https://git.overleaf.com/5cb0d058bcf13c490e3d79c9

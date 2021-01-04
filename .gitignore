@@ -1,0 +1,9 @@
+# latex
+report.*
+!report.tex
+!report.bib
+!report.pdf
+
+# licenses and notes
+.vscode
+.DS_store
