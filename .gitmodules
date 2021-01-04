@@ -7,3 +7,12 @@
 [submodule "integracion-social"]
 	path = integracion-social
 	url = https://git.overleaf.com/5cb0d058bcf13c490e3d79c9
+[submodule "maternidad"]
+	path = maternidad
+	url = https://git.overleaf.com/5e5d0d023bf7da00013fca86
+[submodule "familia"]
+	path = familia
+	url = https://git.overleaf.com/5f16ce99e5b05500015a7209
+[submodule "momento-egreso"]
+	path = momento-egreso
+	url = https://git.overleaf.com/5caea4d8bcf13c490e3c7c3a

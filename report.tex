@@ -2,18 +2,19 @@
 
 \usepackage{standalone}
 \usepackage{import}
+\usepackage[utf8]{inputenc}
 
 \usepackage{mathptmx}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{multirow}
-\usepackage{hyperref}
+% \usepackage{hyperref}
+\usepackage{url}
 
 \usepackage{tagging}
 \usepackage{enumerate}
 \usepackage{longtable}
 \usepackage{threeparttable}
-\usepackage{caption}
 \usepackage{subcaption}
 \usepackage{geometry}
 \usepackage{booktabs}
@@ -27,6 +28,7 @@
 \usepackage{setspace}
 \usepackage{enumitem,kantlipsum}
 \usepackage{float}
+
 \usepackage{csquotes}
 \usepackage[blocks]{authblk}% The option is for block layout
 \usepackage{atbegshi} % http://ctan.org/pkg/atbegshi
@@ -36,7 +38,6 @@
 \renewcommand{\contentsname}{Contenidos}
 \renewcommand{\listfigurename}{Gráficos}
 \renewcommand{\listtablename}{Tablas}
-
 
 % \setlength{\cftbeforesecskip}{6pt}
 \renewcommand\cftchapafterpnum{\vskip10pt}
@@ -48,7 +49,7 @@
 % \setlength{\cftbeforesecskip}{6pt}
 
 \usepackage[natbib, style=apa, doi=false, uniquename=false, eprint=false,
-    isbn=false, url=false, backend=biber]{biblatex}
+    isbn=false, url=false, backend=biber, language=spanish]{biblatex}
 \addbibresource{proyecto-reinsercion.bib}
 
 \usepackage{xpatch}
@@ -76,7 +77,10 @@
   \end{varwidth}%
 }
 
-\captionsetup{format=myformat}% global activation
+\usepackage{enumerate}
+\usepackage{booktabs}
+\usepackage[tablename=Tabla, justification=centering]{caption}
+\renewcommand{\figurename}{Gráfico}
 
 % more on captions
 \setlength{\abovecaptionskip}{5pt}   % 0.5cm as an example
@@ -235,8 +239,22 @@ Gracias!
 \setlength\parskip{11pt}
 % \doublespacing
 
+% Introducción
+% II.Revisión de literatura
+% III.Metodología y descripción de la muestra (*Es el reporte de ppt del estudio)
+% IV.¿Quién es la mujer que egresa de la cárcel? Caracterización y perfiles
+% V.La experiencia carcelaria y el momento del egreso
+% VI.Empleo
+% VII.Salud, salud mental y consumo de drogasVIII.Maternidad e hijos
+% IX.Familia, vivienda y comunidadX.Integración social
+% XI.DelitoXII.Implicancias de políticaa.Programas actualmente disponiblesb.Propuestas Comité Asesor
+% XIII.Apéndice: Aprendizajes de terreno (*No creo que lo alcancemos!)
+
 \import{intro/}{manuscript}
+\import{momento-egreso/}{manuscript}
 \import{integracion-social/}{manuscript}
+\import{familia/}{manuscript}
+% \import{maternidad/}{manuscript}
 \import{conclusion/}{manuscript}
 
 % \import{ch02/manuscript/}{manuscript}
