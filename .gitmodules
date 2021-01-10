@@ -16,3 +16,9 @@
 [submodule "momento-egreso"]
 	path = momento-egreso
 	url = https://git.overleaf.com/5caea4d8bcf13c490e3c7c3a
+[submodule "perfiles"]
+	path = perfiles
+	url = https://git.overleaf.com/5c78178e49dbcd325f63ea12
+[submodule "empleo"]
+	path = empleo
+	url = https://git.overleaf.com/5d5cf25ffd862e5e3e2f412e
