@@ -22,3 +22,6 @@
 [submodule "empleo"]
 	path = empleo
 	url = https://git.overleaf.com/5d5cf25ffd862e5e3e2f412e
+[submodule "metodologia"]
+	path = metodologia
+	url = https://git.overleaf.com/5ff2fa44dddae02f479c0420
