@@ -25,3 +25,12 @@
 [submodule "metodologia"]
 	path = metodologia
 	url = https://git.overleaf.com/5ff2fa44dddae02f479c0420
+[submodule "salud"]
+	path = salud
+	url = https://git.overleaf.com/5f4fd6ff0726660001d9ce75
+[submodule "delito"]
+	path = delito
+	url = https://git.overleaf.com/5f4fd7110726660001d9ce94
+[submodule "contexto"]
+	path = contexto
+	url = https://git.overleaf.com/5ff2fca4dddae06f769c0c1f
