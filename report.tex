@@ -153,8 +153,10 @@
 % {\Large\bfseries\filright}
 
 \usepackage{titlesec}
+% \renewcommand{\thechapter}{\Roman{chapter}}
+
 \titleformat{\chapter}[display]
-  {\normalfont\bfseries}{}{0pt}{\Large}
+  {\normalfont\bfseries}{}{0pt}{\Large \thechapter \hspace{3mm}}
 
 \titleformat*{\section}{\large\bfseries}
 \titleformat*{\subsection}{\normalsize\bfseries}
@@ -162,6 +164,9 @@
 % \titleformat*{\paragraph}{\large\bfseries}
 % \titleformat*{\subparagraph}{\large\bfseries}
 % \renewcommand\bibname{\Large{References}}
+
+% footnote
+\renewcommand{\thefootnote}{\roman{footnote}}
 
 % source figures
 \newcommand{\source}[1]{\caption*{\scriptsize Source: {#1}} }
@@ -221,11 +226,11 @@ Version 0.1\\
 \pagenumbering{roman}
 \setcounter{page}{1}
 
-\renewcommand{\abstractname}{Agradecimientos}
+\renewcommand{\abstractname}{\Large Prólogo}
 \begin{abstract}
 
 \setlength\parskip{11pt}
-Gracias!
+Pendiente.
 \end{abstract}
 
 \newpage
@@ -273,9 +278,9 @@ Gracias!
 \import{perfiles/}{manuscript}
 \import{momento-egreso/}{manuscript}
 \import{empleo/}{manuscript}
-\import{salud/}{manuscript}
 \import{maternidad/}{manuscript}
 \import{familia/}{manuscript}
+\import{salud/}{manuscript}
 \import{integracion-social/}{manuscript}
 \import{delito/}{manuscript}
 \import{conclusion/}{manuscript}
